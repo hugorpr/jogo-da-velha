@@ -1,9 +1,15 @@
 import React from 'react';
 import Sobre from './objects/Sobre'
+import Logo from './objects/Logo';
+import Menu from './objects/Menu';
 
 const App = () => {
   return (
-     <Sobre label='Sobre'/>
+    <>
+      <Logo />
+      <Sobre label='Sobre' />
+      <Menu />
+    </>
   )
 }
 
